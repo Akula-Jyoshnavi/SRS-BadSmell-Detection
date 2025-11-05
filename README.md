@@ -30,11 +30,13 @@ cd PURE-SRS-AbbreviationCompleteness-Checker
 ## 2. Install dependencies
 <pre> pip install nltk pandas </pre>
 ## 3. Download NLTK resources
-<pre>import nltk
-
+<pre>!pip install nltk --quiet
+ 
+import nltk
+ 
 nltk.download('punkt')
-
-nltk.download('words') </pre>
+ 
+nltk.download('punkt_tab') </pre>
 ## 4. To run missing abbrevation script
 1.Place all SRS .txt files (from the PURE dataset) inside:
      /content/data/txt
