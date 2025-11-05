@@ -24,17 +24,17 @@ After downloading, extract the dataset and convert files to text format andplace
 
 ## Setup Instructions
 ## 1. Clone this repository
-<pre> ```bash git clone https://github.com/Akula-Jyoshnavi/PURE-SRS-AbbreviationCompleteness-Checker.git``` </pre>
+<pre>  git clone https://github.com/Akula-Jyoshnavi/PURE-SRS-AbbreviationCompleteness-Checker.git </pre>
 
 cd PURE-SRS-AbbreviationCompleteness-Checker
 ## 2. Install dependencies
-pip install nltk pandas
+<pre> pip install nltk pandas </pre>
 ## 3. Download NLTK resources
-import nltk
+<pre>import nltk
 
 nltk.download('punkt')
 
-nltk.download('words')
+nltk.download('words') </pre>
 ## How to Run
 1.Place all SRS .txt files (from the PURE dataset) inside:
      /content/data/txt
@@ -43,7 +43,7 @@ nltk.download('words')
 
 python abbreviation_checker.py
 
-## HOw to run subjective terms script 
+## How to run subjective terms script 
 To run subjective terms script you need gemini api key get it from :  https://aistudio.google.com/app/apikey
 
 
