@@ -43,10 +43,12 @@ nltk.download('punkt_tab') </pre>
      
 2.Run the Python script:
 
-python abbreviation_checker.py
+python abbreviation_inconsistency.ipynb
 
 ## 5. To run subjective terms script 
-To run subjective terms script you need gemini api key get it from :  https://aistudio.google.com/app/apikey
+To run subjective terms script first get gemini api key get it from :  https://aistudio.google.com/app/apikey
+
+and then run the each cell of SubjectiveTermsRewriter.ipynb script sequentially.
 
 
 
