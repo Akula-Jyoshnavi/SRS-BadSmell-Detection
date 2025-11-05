@@ -35,7 +35,7 @@ cd PURE-SRS-AbbreviationCompleteness-Checker
 nltk.download('punkt')
 
 nltk.download('words') </pre>
-## How to Run
+## 4. To run missing abbrevation script
 1.Place all SRS .txt files (from the PURE dataset) inside:
      /content/data/txt
      
@@ -43,7 +43,7 @@ nltk.download('words') </pre>
 
 python abbreviation_checker.py
 
-## How to run subjective terms script 
+## 5. To run subjective terms script 
 To run subjective terms script you need gemini api key get it from :  https://aistudio.google.com/app/apikey
 
 
