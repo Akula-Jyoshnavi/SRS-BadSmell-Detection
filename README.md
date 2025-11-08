@@ -50,5 +50,10 @@ To run subjective terms script first get gemini api key get it from :  https://a
 
 and then run the each cell of SubjectiveTermsRewriter.ipynb script sequentially.
 
+## 6. To run missing_abbreviation_definitions_bard_suggestions script
+first get gemini api key get it from :  https://aistudio.google.com/app/apikey
+
+and then run SubjectiveTermsRewriter.ipynb
+
 
 
